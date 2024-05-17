@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
@@ -103,6 +105,16 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
